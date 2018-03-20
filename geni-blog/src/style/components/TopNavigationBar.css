@@ -1,0 +1,30 @@
+#top_navigation_bar {
+  width: 100%;
+  display: block;
+  opacity: 1;
+  background-color: black;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+
+#top_navigation_bar ul {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  float: right;
+}
+
+#top_navigation_bar li {
+  display: inline-block;
+}
+
+#top_navigation_bar a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 16px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}

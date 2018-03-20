@@ -1,19 +1,8 @@
 import React, { Component } from 'react';
 import { TopNavigationBar, Banner } from '../components';
-import '../style/BlogMain.css';
+import '../style/containers/BlogMain.css';
 
 class BlogMain extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      navigationBar: {
-        opacity: 1,
-        display: 'block'
-      }
-    }
-  }
-
   render() {
     return (
       <div>

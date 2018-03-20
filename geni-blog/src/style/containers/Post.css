@@ -1,0 +1,19 @@
+#post_wrapper {
+
+}
+
+#post_content_wrapper {
+  width: 100%;
+  height: calc(100% - 380px);
+  padding-top: 20px;
+  margin-top: 380px;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 10;
+}
+
+#post_content pre {
+  background-color: #ddd;
+  padding: 5px;
+  border-radius: 2px;
+}

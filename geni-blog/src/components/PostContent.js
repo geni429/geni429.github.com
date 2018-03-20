@@ -2,7 +2,7 @@ import React from 'react';
 
 const PostContent = (content) => {
   return (
-    <section dangerouslySetInnerHTML = {{
+    <section id="post_content" dangerouslySetInnerHTML = {{
       __html: content
     }}>
     </section>

@@ -1,30 +1,40 @@
 import React, { Component } from 'react';
 import { TopNavigationBar, Banner, PostContent } from '../components';
-import showdown from 'showdown';
+import post from '../../blog-post/test.md';
+import '../style/containers/Post.css';
 
 class Post extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      postContent: "## It's mark down!"
+      postContent: post,
+      postBannerMarginTop: 0,
+      postBannerOpacity: 1
     }
+
+    this.bannerFadeOut = this.bannerFadeOut.bind(this);
   }
 
   componentDidMount() {
-    let converter = new showdown.Converter();
+    window.addEventListener('scroll', this.bannerFadeOut);
+  }
+
+  bannerFadeOut() {
     this.setState({
-      postContent: converter.makeHtml(this.state.postContent)
-    });
+      postBannerMarginTop: window.scrollY / 5,
+      postBannerOpacity: 1 - window.scrollY / 200
+    })
   }
 
   render() {
     return (
-      <div>
-        {TopNavigationBar()}
-        {Banner("Test post")}
-        <div id="container">
-          {PostContent(this.state.postContent)}
+      <div id="post_wrapper">
+        {Banner("React Router: <Switch>", this.state.postBannerMarginTop, this.state.postBannerOpacity)}
+        <div id="post_content_wrapper">
+          <div id="container">
+            {PostContent(post)}
+          </div>
         </div>
       </div>
     );
