@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { BlogMain } from './containers';
+import { BlogMain, Post } from './containers';
 
 const rootElement = document.getElementById('root');
-render(<BlogMain />, rootElement);
+render(<Post />, rootElement);

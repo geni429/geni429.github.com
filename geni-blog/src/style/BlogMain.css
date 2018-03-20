@@ -43,7 +43,7 @@ html, body {
   height: 280px;
   background-color: #ddd;
   position: relative;
-  top: 52px;
+  margin-top: 52px;
 }
 
 #banner > span {
