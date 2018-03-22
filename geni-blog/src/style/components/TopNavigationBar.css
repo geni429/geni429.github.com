@@ -2,10 +2,10 @@
   width: 100%;
   display: block;
   opacity: 1;
-  background-color: black;
   overflow: hidden;
   position: absolute;
   top: 0;
+  z-index: 1;
 }
 
 #top_navigation_bar ul {
