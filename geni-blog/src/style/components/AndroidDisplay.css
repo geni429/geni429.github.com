@@ -1,8 +1,4 @@
 #android_wrapper {
-  position: absolute;
-  top: 60%;
-  transform: translateY(-50%);
-  right: -140px;
   width: 280px;
   height: 500px;
   border-radius: 15px;

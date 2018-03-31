@@ -1,15 +1,15 @@
 import React from 'react';
 import '../style/components/WebProjectInfo.css';
 
-const WebProjectInfo = (project_id, project_name, project_introduce, project_image) => {
+const WebProjectInfo = (projectId, projectName, projectIntroduce, projectImage) => {
   return (
-    <div id={project_id} className="project">
+    <div id={projectId} className="web_project">
       <div className="project_img">
-        <img src={project_image} alt={project_introduce} />
+        <img src={projectImage} alt={projectIntroduce} />
       </div>
       <div className="project_info">
-        <div className="project_name">{project_name}</div>
-        <div className="project_introduce">{project_introduce}</div>
+        <div className="project_name">{projectName}</div>
+        <div className="project_introduce">{projectIntroduce}</div>
       </div>
     </div>
   );

@@ -5,5 +5,6 @@ import Desktop from './Desktop';
 import PageInfo from './PageInfo';
 import WebProjectInfo from './WebProjectInfo';
 import AndroidDisplay from './AndroidDisplay';
+import AndroidProjectInfo from './AndroidProjectInfo'
 
-export { TopNavigationBar, Banner, PostContent, Desktop, PageInfo, WebProjectInfo, AndroidDisplay };
+export { TopNavigationBar, Banner, PostContent, Desktop, PageInfo, WebProjectInfo, AndroidDisplay, AndroidProjectInfo };

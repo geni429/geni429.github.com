@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Banner, Desktop, PageInfo, WebProjectInfo, AndroidDisplay } from '../components';
+import { Banner, Desktop, PageInfo, WebProjectInfo, AndroidProjectInfo } from '../components';
 import '../style/containers/About.css';
 import jsLogo from '../res/javascript_logo.png';
 import { project_entry, project_blog, project_sigmungo } from '../res';
@@ -24,7 +24,7 @@ class About extends Component {
             {/* https://geni429.github.io/geni-blog/src/res/post_bg_image_1.jpg */}
             {WebProjectInfo('entry', 'Entry', 'DSM entry system.', project_entry)}
             {WebProjectInfo('blog', 'Own blog', 'geni429.github.io', project_blog)}
-            {AndroidDisplay()}
+            {AndroidProjectInfo('식문고', '키워드 기반 음식점 개선 시스템')}
           </section>
         </div>
       </div>
