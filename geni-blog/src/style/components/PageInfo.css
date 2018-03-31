@@ -1,0 +1,15 @@
+.page_info {
+  position: absolute;
+  top: 50%;
+}
+
+.page_info .content_title {
+  color: #ffffff;
+  font-size: 64px;
+}
+
+.page_info .content_summary {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+}

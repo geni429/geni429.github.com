@@ -9,7 +9,7 @@ const Banner = (bannerTitle, marginTop, opacity) => {
       <div id="banner_cover"></div>
       {TopNavigationBar()}
       <div id="banner_image">
-        <img src={bgImage} class="image" alt="banner image"/>
+        <img src="https://geni429.github.io/geni-blog/src/res/post_bg_image_1.jpg" class="image" alt="banner image"/>
       </div>
       <span style={{opacity: opacity}}>{bannerTitle}</span>
     </header>
