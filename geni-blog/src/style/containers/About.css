@@ -43,6 +43,8 @@
 /* content */
 #about_content {
   margin-left: 300px;
+  min-width: 1140px;
+  min-height: 2400px;
 }
 
 .content_wrapper {
@@ -55,3 +57,6 @@
 #introduce { background: rgb(82, 106, 192); }
 #developer { background: rgb(102, 100, 171); }
 #project { background: rgb(119, 203, 203); }
+#project > .page_info {
+  top: 10%;
+}

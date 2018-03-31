@@ -18,7 +18,9 @@ class About extends Component {
             {PageInfo('Developer', 'I\'m interested in web development.')}
             {Desktop()}
           </section>
-          <section id="project" className="content_wrapper"></section>
+          <section id="project" className="content_wrapper">
+            {PageInfo('Project', 'My own projects.')}
+          </section>
         </div>
       </div>
     );
