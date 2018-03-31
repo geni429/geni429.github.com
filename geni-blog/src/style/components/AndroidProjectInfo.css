@@ -4,6 +4,13 @@
   right: -140px;
   transform: translateY(-50%);
   width: 460px;
+  cursor: pointer;
+  transition: 1.5s;
+}
+
+.android_project:hover {
+  right: 100px;
+  transition: 1s;
 }
 
 .android_project > .project_img {

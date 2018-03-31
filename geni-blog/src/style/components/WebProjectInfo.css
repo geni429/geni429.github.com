@@ -4,6 +4,13 @@
   width: 600px;
   height: 250px;
   font-size: 0;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.web_project:hover {
+  left: 50px;
+  transition: 1s;
 }
 
 .project_img {
