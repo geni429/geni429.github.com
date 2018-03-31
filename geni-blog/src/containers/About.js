@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Banner, Desktop, PageInfo } from '../components';
+import { Banner, Desktop, PageInfo, WebProjectInfo } from '../components';
 import '../style/containers/About.css';
 import jsLogo from '../res/javascript_logo.png';
+import { project_entry, project_blog, project_sigmungo } from '../res';
 
 class About extends Component {
   render() {
@@ -20,6 +21,14 @@ class About extends Component {
           </section>
           <section id="project" className="content_wrapper">
             {PageInfo('Project', 'My own projects.')}
+            {/* https://geni429.github.io/geni-blog/src/res/post_bg_image_1.jpg */}
+            <div id="project_examples">
+              <div id="web_project">
+                {WebProjectInfo('entry', 'Entry', 'DSM entry system.', project_entry)}
+                {WebProjectInfo('blog', 'Own blog', 'geni429.github.io', project_blog)}
+              </div>
+              <div id="android_project"></div>
+            </div>
           </section>
         </div>
       </div>

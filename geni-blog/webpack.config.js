@@ -4,6 +4,7 @@ const renderer = new marked.Renderer();
 const webpack = require('webpack');
 
 const config = {
+  mode: 'development',
   entry: "./src/index.js",
 
   output: {

@@ -45,6 +45,7 @@
   margin-left: 300px;
   min-width: 1140px;
   min-height: 2400px;
+  overflow-x: hidden;
 }
 
 .content_wrapper {

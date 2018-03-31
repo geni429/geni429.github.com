@@ -1,0 +1,43 @@
+.project {
+  position: absolute;
+  left: -200px;
+  width: 600px;
+  height: 250px;
+  font-size: 0;
+}
+
+.project_img {
+  display: inline-block;
+}
+
+.project_img img {
+  width: 400px;
+  height: 250px;
+}
+
+.project_info {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  width: 180px;
+  height: 250px;
+  padding-left: 20px
+}
+
+.project_info .project_name {
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.project_info .project_introduce {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+#entry {
+  top: 30%;
+}
+
+#blog {
+  top: 65%;
+}
