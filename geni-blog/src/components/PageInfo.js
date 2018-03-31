@@ -3,9 +3,9 @@ import '../style/components/PageInfo.css';
 
 const PageInfo = (title, summary) => {
   return (
-    <article class="page_info">
-      <header class="content_title">{title}</header>
-      <div class="content_summary">{summary}</div>
+    <article className="page_info">
+      <header className="content_title">{title}</header>
+      <div className="content_summary">{summary}</div>
     </article>
   );
 }

@@ -3,7 +3,7 @@ import '../style/components/WebProjectInfo.css';
 
 const WebProjectInfo = (project_id, project_name, project_introduce, project_image) => {
   return (
-    <div id={project_id} class="project">
+    <div id={project_id} className="project">
       <div className="project_img">
         <img src={project_image} alt={project_introduce} />
       </div>

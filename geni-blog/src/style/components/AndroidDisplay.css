@@ -1,0 +1,43 @@
+#android_wrapper {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  right: -140px;
+  width: 280px;
+  height: 500px;
+  border-radius: 15px;
+  background: white;
+}
+
+#android_wrapper #android_speaker {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 80px;
+  height: 10px;
+  background: rgb(214, 213, 213);
+  border-radius: 5px;
+}
+
+#android_wrapper #android_display {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 254px;
+  height: 427px;
+  border: 3px solid rgb(94, 94, 94);
+  border-radius: 2px;
+  z-index: 2;
+}
+
+#android_wrapper > #content {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 260px;
+  height: 430px;
+  z-index: 1;
+}
