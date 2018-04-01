@@ -41,8 +41,8 @@ class About extends Component {
           </section>
           <section id="project" className="content_wrapper">
             {PageInfo('Project', 'My own projects.')}
-            {WebProjectInfo('entry', 'Entry', 'DSM entry system.', 'https://geni429.github.io/geni-blog/src/res/project_entry.jpg')}
-            {WebProjectInfo('blog', 'Own blog', 'geni429.github.io', 'https://geni429.github.io/geni-blog/src/res/project_blog.jpg')}
+            {WebProjectInfo('entry', 'Entry', 'DSM entry system.', 'https://geni429.github.io/geni-blog/src/res/project_entry.png')}
+            {WebProjectInfo('blog', 'Own blog', 'geni429.github.io', 'https://geni429.github.io/geni-blog/src/res/project_blog.png')}
             {AndroidProjectInfo('식문고', '키워드 기반 음식점 개선 시스템')}
           </section>
         </div>

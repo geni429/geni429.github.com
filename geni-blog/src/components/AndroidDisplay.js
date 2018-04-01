@@ -6,7 +6,7 @@ const AndroidDisplay = () => {
     <div id="android_wrapper">
       <div id="android_speaker"></div>
       <div id="android_display"></div>
-      <img id="content" src="https://geni429.github.io/geni-blog/src/res/project_sigmungo.jpg" />
+      <img id="content" src="https://geni429.github.io/geni-blog/src/res/project_sigmungo.png" />
     </div>
   );
 }

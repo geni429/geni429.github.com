@@ -14,13 +14,13 @@ const AboutAsideMenu = (circleStyle) => {
           }} />
         </div>
         <div id="state_github" className={classNames("circle", "state")}>
-          <img src="https://geni429.github.io/geni-blog/src/res/github_logo.jpg" style={{ 
+          <img src="https://geni429.github.io/geni-blog/src/res/github_logo.png" style={{ 
             opacity: circleStyle.githubOpacity,
             display: circleStyle.githubDisplay
           }} />
         </div>
         <div id="state_git_repo" className={classNames("circle", "state")}>
-          <img src="https://geni429.github.io/geni-blog/src/res/git_repo.jpg" style={{ 
+          <img src="https://geni429.github.io/geni-blog/src/res/git_repo.png" style={{ 
             opacity: circleStyle.gitRepoOpacity,
             display: circleStyle.gitRepoDisplay
           }} />
